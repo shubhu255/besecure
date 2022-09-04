@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+.navbar-toggler{
+    color: white;
+    padding: 10px;
+}
 
-
+#logo{
+    color: white;
+}
 #img1{
     height: 500px;
     width: 200px;
