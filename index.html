@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Be Secure</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/86aaf8bb1e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <header class="header" class="text-bg-dark p-1">
+      <nav
+        class="navbar navbar-expand-lg text-bg-primary p-1 fixed-top"
+        class="badge text-bg-info"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" id="logo" href="#">Be Secure</a>
+          <!-- <img src="./images/Add a heading.jpg" height="50px" width="60px" /> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#ourteam"
+                  >Our Team</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ourservices">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#pricing"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pricing
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#pricing">Pricing</a></li>
+                  <li><a class="dropdown-item" href="#ourteam">Our Team </a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="modalSignin">Forum</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- CAROUSEL START -->
+    <div class="container" id="home" class="mt-4" class="pt-5" >
+      <div
+        id="carouselExampleDark"
+        class="mt-5"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="./images/rich-smith-b-0GqwAktDM-unsplash.jpg"
+              height="300"
+              width="100%"
+              class="d-block w-100"
+              alt="cctv"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div
+                class="btn-group mt-4"
+                role="group"
+                aria-label="Basic mixed styles example"
+              >
+                <button type="button" class="btn btn-danger">Work</button>
+                <button type="button" class="btn btn-warning">Services</button>
+                <button type="button" class="btn btn-success">
+                  Installation
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./images/bernard-hermant-IhcSHrZXFs4-unsplash.jpg"
+              height="300px"
+              width="300px"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/nick-loggie-fRVPzBYcd5A-unsplash.jpg"
+              height="300px"
+              width="300px"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- CAROUSEL END -->
+    
+    <div class="container" id="ourteam">
+      <h5  class="pt-3" id="team">OUR TEAM</h5>
+      <div class="card-group mt-5">
+        <div class="card">
+          <img
+            src="/images/abhi 3.jpg"
+            height="250px"
+            width="100"
+            class="card-img-top"
+            alt=""
+          />
+          <div class="card-body">
+            <h5 class="card-title">M.S DHONI</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <p class="card-text"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/abhi 1.jpg"
+            height="250px"
+            width="100"
+            class="card-img-top"
+            alt=""
+          />
+          <div class="card-body">
+            <h5 class="card-title">ROHIT SHARMA</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <p class="card-text"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/abhi 2.jpg"
+            height="250px"
+            width="100"
+            class="card-img-top"
+            alt=""
+          />
+          <div class="card-body">
+            <h5 class="card-title">VIRAT KOHLI</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRICING STARTED -->
+    <div class="container py-3" id="pricing">
+      <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal">Pricing</h1>
+          <p class="fs-5 text-muted">
+            Quickly build an effective pricing table for your potential
+            customers with this Bootstrap example. It’s built with default
+            Bootstrap components and utilities with little customization.
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $0<small class="text-muted fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 users included</li>
+                  <li>2 GB of storage</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary"
+                >
+                  Sign up for free
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $15<small class="text-muted fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 users included</li>
+                  <li>10 GB of storage</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $29<small class="text-muted fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Contact us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- PRICING END -->
+
+      <!-- FOOTER STARTED -->
+
+      
+
+            
+
+            <div class="modal modal-signin position-static d-block  py-5" tabindex="-1" role="dialog" id="modalSignin">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content rounded-4 shadow">
+                  <div class="modal-header p-5 pb-4 border-bottom-0">
+                    <!-- <h5 class="modal-title">Modal title</h5> -->
+                    <h2 class="fw-bold mb-0">Sign up for free</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+            
+                  <div class="modal-body p-5 pt-0">
+                    <form class="">
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                      <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+                      <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                      <hr class="my-4">
+                      <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                      <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
+                        <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"></use></svg>
+                        Sign up with Twitter
+                      </button>
+                      <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                        <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"></use></svg>
+                        Sign up with Facebook
+                      </button>
+                      <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                        <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"></use></svg>
+                        Sign up with GitHub
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <footer class="py-5">
+              <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+               
+          
+                <div class="col-md-5 offset-md-1 mb-3">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2022 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+              </div>
+            </footer>
+           
+    
+        <!-- FOOTER END -->
+      </div>
+    </div>
+  </body>
+</html>

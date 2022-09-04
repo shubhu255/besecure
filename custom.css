@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#img1{
+    height: 500px;
+    width: 200px;
+}
+
+#home{
+    padding-top: 30px;
+    width: 100;
+}
+
+
+.header .navbar a:hover{
+  /* background-color: #6A5ACD; */
+  border: 0;
+  box-shadow: 0 0 3px #ffe205, 0 0 7px #ffe205, 0 0 20px #edd205;
+
+}
+    
+#team{
+    padding: 8px;
+    height: 8px;
+    text-align: center;
+    justify-items: center;
+    color: #6A5ACD;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-title{
+    align-items: center;
+    justify-items: center;
+   
+}
+
+#logo{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+}
+
+.d-flex{
+    color: black;
+}
+
+
+
+/* .card-group{
+    border: 5px solid black;
+} */
+
+
+
+.card-group .card-img-top{
+    border-radius: 70%;
+}
